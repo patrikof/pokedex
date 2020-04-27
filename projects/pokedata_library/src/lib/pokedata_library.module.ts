@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { PokedataComponent } from './pokedata.component';
+import { PokedataComponent } from './pokedata_library.component';
 
 @NgModule({
   imports: [

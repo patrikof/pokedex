@@ -17,11 +17,11 @@
       "dom"
     ],
     "paths": {
-      "pokedata": [
-        "dist/pokedata"
+      "pokedata_library": [
+        "dist/pokedata_library"
       ],
-      "pokedata/*": [
-        "dist/pokedata/*"
+      "pokedata_library/*": [
+        "dist/pokedata_library/*"
       ]
     }
   }

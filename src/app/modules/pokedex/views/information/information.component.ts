@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { takeWhile } from 'rxjs/operators';
-import { PokeapiService } from 'pokedata'; 
+import { PokeapiService } from 'pokedata_library'; 
 
 @Component({
   selector: 'app-information',

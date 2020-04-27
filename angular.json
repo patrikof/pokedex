@@ -132,38 +132,38 @@
         }
       }
     },
-    "pokedata": {
-      "root": "projects/pokedata",
-      "sourceRoot": "projects/pokedata/src",
+    "pokedata_library": {
+      "root": "projects/pokedata_library",
+      "sourceRoot": "projects/pokedata_library/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/pokedata/tsconfig.lib.json",
-            "project": "projects/pokedata/ng-package.json"
+            "tsConfig": "projects/pokedata_library/tsconfig.lib.json",
+            "project": "projects/pokedata_library/ng-package.json"
           },
           "configurations": {
             "production": {
-              "project": "projects/pokedata/ng-package.prod.json"
+              "project": "projects/pokedata_library/ng-package.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/pokedata/src/test.ts",
-            "tsConfig": "projects/pokedata/tsconfig.spec.json",
-            "karmaConfig": "projects/pokedata/karma.conf.js"
+            "main": "projects/pokedata_library/src/test.ts",
+            "tsConfig": "projects/pokedata_library/tsconfig.spec.json",
+            "karmaConfig": "projects/pokedata_library/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/pokedata/tsconfig.lib.json",
-              "projects/pokedata/tsconfig.spec.json"
+              "projects/pokedata_library/tsconfig.lib.json",
+              "projects/pokedata_library/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PokedataComponent } from './pokedata.component';
+import { PokedataComponent } from './pokedata_library.component';
 
 describe('PokedataComponent', () => {
   let component: PokedataComponent;

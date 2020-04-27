@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { PokeapiService } from 'pokedata';
+import { PokeapiService } from 'pokedata_library';
 
 @Component({
   selector: 'app-list',
